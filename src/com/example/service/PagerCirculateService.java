@@ -24,13 +24,15 @@ public class PagerCirculateService {
 				if(i <pic.length){
 					pager.setCurrentItem(i);
 					i++;
+					if(flag == 1){
+						hander.postDelayed(this, 5000);
+					}
 				}else{
 					i =0;
-				}
-				
-				if(flag == 1){
-					hander.postDelayed(this, 5000);
-				}
+					if(flag == 1){
+						hander.postDelayed(this,1);
+					}
+				}	
 			}
 		};
 		hander.postDelayed(runnable, 1);
