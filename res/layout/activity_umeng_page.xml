@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UmengPage" >
+    
+    <RelativeLayout android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#000">       
+        
+        <Button android:id="@+id/back_button"
+             android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back_selector"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="友盟首页"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+   <android.support.v4.view.ViewPager android:id="@+id/view_pager"
+    android:layout_width="fill_parent"
+    android:background="#f00"
+    android:layout_height="150dp"
+    android:layout_below="@id/topbar"/>
+   
+   <LinearLayout android:id="@+id/pointer_view"
+       android:layout_below="@id/view_pager"
+       android:gravity="center_horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="#dddddd">
+       
+       <ImageView android:id="@+id/point0"
+           android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/purple_point"/>
+        <ImageView android:id="@+id/point1"
+            android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/blue_point"/>
+         <ImageView android:id="@+id/point2"
+             android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/blue_point"/>
+          <ImageView android:id="@+id/point3"
+              android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/blue_point"/>
+           <ImageView android:id="@+id/point4"
+               android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/blue_point"/>
+            <ImageView android:id="@+id/point5"
+                android:layout_margin="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/blue_point"/>
+   </LinearLayout>
+   
+   <TextView android:layout_below="@id/pointer_view"
+       android:paddingTop="10dp"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:textColor="#000000"
+       android:background="#dddddd"
+       android:text="友盟（Umeng）\n
+　　2010年4月成立，是中国最专业的移动应用统计分析及开发者服务平台。\n
+　　友盟致力于为开发者提供更多价值。我们以统计分析为产品起点，发展到为移动应用提供从开发到盈利的全程解决方案，包括开发组件、统计分析、推广服务及盈利服务。目前，已经有数以万计的开发者已经从友盟服务中获益。\n
+　　友盟目前拥有近百人的专业团队，均来自Google、微软、百度、搜狐、雅虎、Zynga等国际知名的IT公司。\n
+　　为开发者创造价值，是我们最大的价值。"/>
+
+</RelativeLayout>

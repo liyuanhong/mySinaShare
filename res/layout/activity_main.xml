@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_page_background" >
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+     
+        
+        <RelativeLayout android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#000">
+                 
+            
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享你的微薄"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+        
+        <TextView android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border_sector"
+            android:text="进入新浪分享页面"
+            android:layout_marginTop="10dp"
+            android:textColor="@drawable/font_style_sector"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        
+        <TextView android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border_sector"
+            android:textColor="@drawable/font_style_sector"
+            android:text="去新浪开放平台主页"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        
+        <TextView android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border_sector"
+            android:textColor="@drawable/font_style_sector"
+            android:text="进入友盟界面"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        
+         <TextView android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border_sector"
+            android:textColor="@drawable/font_style_sector"
+            android:text="去友盟主页"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+</ScrollView>

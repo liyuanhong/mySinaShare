@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".UmengPage" >
+    
+	<ImageView android:id="@+id/view_item"
+	    android:layout_width="fill_parent"
+	    android:scaleType="fitXY"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/umeng_pager_pic_1"/>
+</RelativeLayout>

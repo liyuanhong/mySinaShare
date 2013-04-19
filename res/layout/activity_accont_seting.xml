@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccontSeting"
+    android:background="@drawable/main_page_background" >
+    
+    <RelativeLayout android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#000">       
+        
+        <Button android:id="@+id/back_button"
+             android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back_selector"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户设置"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <TextView android:id="@+id/button1"
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="绑定新浪微博"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@drawable/font_style_sector"
+        android:background="@drawable/button_border_sector"
+        android:layout_below="@id/topbar" />
+
+</RelativeLayout>

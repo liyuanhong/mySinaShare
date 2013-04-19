@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SinaShare</string>
+    <string name="main">毕设 Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sina_share_page">SinaSharePage</string>
+    <string name="title_activity_umeng_home_page">UmengHomePage</string>
+    <string name="title_activity_sina_home_page">SinaHomePage</string>
+    <string name="title_activity_umeng_page">UmengPage</string>
+    <string name="title_activity_accont_seting">AccontSeting</string>
+
+</resources>
