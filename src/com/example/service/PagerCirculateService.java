@@ -6,7 +6,7 @@ import android.support.v4.view.ViewPager;
 public class PagerCirculateService {
 	Handler hander = new Handler();
 	int flag = 0;
-	int i = 0;
+	public static int i = 0;
 	int pic[];
 	ViewPager pager;	
 	Runnable runnable;

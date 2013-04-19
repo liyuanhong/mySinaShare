@@ -48,6 +48,7 @@ public class UmengPage extends Activity {
 					}else{
 						((ImageView)findViewById(point[i])).setImageResource(R.drawable.blue_point);
 					}
+					PagerCirculateService.i = arg0;
 				}				
 			}
 			
