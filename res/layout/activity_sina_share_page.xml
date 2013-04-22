@@ -48,6 +48,7 @@
         android:layout_toRightOf="@id/share_picture_layout"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
+        android:textColor="#000"
         android:layout_marginLeft="10dp"
         android:hint="在这里输入标题"
         android:background="@drawable/button_border"/>
@@ -56,6 +57,7 @@
     <EditText android:id="@+id/share_content"
         android:layout_width="fill_parent"
         android:gravity="top"
+        android:textColor="#000"
         android:layout_height="150dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
